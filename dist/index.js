@@ -66,7 +66,7 @@ console.log(`Ready to zip "${files}" into ${dest}`);
 
 const zip = new AdmZip();
 
-files.split("|").forEach(fileName => {
+files.split(" | ").forEach(fileName => {
   const filePath = path.join(process.env.GITHUB_WORKSPACE, fileName);
 
   if (!fs.existsSync(filePath)) {
