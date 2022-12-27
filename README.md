@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: vimtor/action-zip@v1
+      - uses: superjaja05/action-zip@v1
         with:
-          files: dist/ manifest.json
+          files: dist/, manifest.json
           dest: result.zip
 ```
 
