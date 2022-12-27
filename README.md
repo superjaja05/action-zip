@@ -2,6 +2,8 @@
 
 Action for zipping files and folders easily
 
+I forked the original action to use ", " as a file separator instead of " ", allowing for filenames with spaces.
+
 ## Usage
 
 The only requirement is to use the official `actions/checkout@v2` first so the zip action has access to the repo files.
